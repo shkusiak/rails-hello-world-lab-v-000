@@ -1,5 +1,5 @@
 class HelloWorldController < ApplicationController
   get '/hello_world' do
-    erb :'/views/hello_world'
+    render "hello_world"
   end
 end
